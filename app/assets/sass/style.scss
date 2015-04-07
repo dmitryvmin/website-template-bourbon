@@ -1,0 +1,77 @@
+// - - Website Template 
+// - - Author: Dmitry Minyaylov
+
+// - - - - - - - - - - - - - - - - - - -
+// - - application.scss
+// contains an import section for libs, core, layout, and modules, the inbox,
+// and a shame section for quick fixes and hacks.
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - libs
+
+// - - reset - normalize.css v3.0.2
+// @import "../bower_components/normalize-scss/_normalize";
+// @import "../bower_components/font-awesome/scss/font-awesome";
+@import "../../../bower_components/bourbon/app/assets/stylesheets/bourbon.scss";
+@import "libs/neat";
+@import "../../../bower_components/neat/app/assets/stylesheets/neat";
+
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - core
+
+@import "core/variables";
+
+// extends, functions, and mixins
+@import "core/utilities";
+
+// base-level tags (body, p, etc.)
+@import "core/base";
+
+// margin, padding, sizing
+@import "core/layout";
+
+// backgrounds, borders, box-shadow, etc
+@import "core/skin";
+
+// fonts and colors
+@import "core/typography";
+
+@import "core/theme"; 
+
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+
+@import "layout/grid"; 
+@import "layout/header"; 
+@import "layout/footer"; 
+@import "layout/sidebar";
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - components
+
+// @import "carousel"; 
+
+// - - - - - - - - - - - - - - - - - - -
+// - - pages
+
+//@import "pages/home";
+
+// - - - - - - - - - - - - - - - - - - -
+// - - modules
+// add new modules to the modules/_modules.scss file and they'll get pulled in here.
+
+@import "modules/modules";
+
+// - - - - - - - - - - - - - - - - - - -
+// - - inbox
+// the inbox allows developers, and those not actively working on the project
+// to quickly add styles that are easily seen by the maintainer of the file.
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - shame
+// need to add a quick fix, hack, or questionable technique?  add it here, fix it later.

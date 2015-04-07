@@ -1,0 +1,68 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, red 0, red 6.17%, transparent 6.17%, transparent 8.53%, red 8.53%, red 14.7%, transparent 14.7%, transparent 17.06%, red 17.06%, red 23.23%, transparent 23.23%, transparent 25.59%, red 25.59%, red 31.76%, transparent 31.76%, transparent 34.12%, red 34.12%, red 40.29%, transparent 40.29%, transparent 42.65%, red 42.65%, red 48.82%, transparent 48.82%, transparent 51.18%, red 51.18%, red 57.35%, transparent 57.35%, transparent 59.71%, red 59.71%, red 65.88%, transparent 65.88%, transparent 68.24%, red 68.24%, red 74.41%, transparent 74.41%, transparent 76.77%, red 76.77%, red 82.94%, transparent 82.94%, transparent 85.3%, red 85.3%, red 91.47%, transparent 91.47%, transparent 93.83%, red 93.83%, red 100.0%, transparent 100.0%);
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(0, red), color-stop(6.17%, red), color-stop(6.17%, transparent), color-stop(8.53%, transparent), color-stop(8.53%, red), color-stop(14.7%, red), color-stop(14.7%, transparent), color-stop(17.06%, transparent), color-stop(17.06%, red), color-stop(23.23%, red), color-stop(23.23%, transparent), color-stop(25.59%, transparent), color-stop(25.59%, red), color-stop(31.76%, red), color-stop(31.76%, transparent), color-stop(34.12%, transparent), color-stop(34.12%, red), color-stop(40.29%, red), color-stop(40.29%, transparent), color-stop(42.65%, transparent), color-stop(42.65%, red), color-stop(48.82%, red), color-stop(48.82%, transparent), color-stop(51.18%, transparent), color-stop(51.18%, red), color-stop(57.35%, red), color-stop(57.35%, transparent), color-stop(59.71%, transparent), color-stop(59.71%, red), color-stop(65.88%, red), color-stop(65.88%, transparent), color-stop(68.24%, transparent), color-stop(68.24%, red), color-stop(74.41%, red), color-stop(74.41%, transparent), color-stop(76.77%, transparent), color-stop(76.77%, red), color-stop(82.94%, red), color-stop(82.94%, transparent), color-stop(85.3%, transparent), color-stop(85.3%, red), color-stop(91.47%, red), color-stop(91.47%, transparent), color-stop(93.83%, transparent), color-stop(93.83%, red), color-stop(100.0%, red), to(transparent));
+  background-image: -webkit-linear-gradient(right, transparent 0, red 0, red 6.17%, transparent 6.17%, transparent 8.53%, red 8.53%, red 14.7%, transparent 14.7%, transparent 17.06%, red 17.06%, red 23.23%, transparent 23.23%, transparent 25.59%, red 25.59%, red 31.76%, transparent 31.76%, transparent 34.12%, red 34.12%, red 40.29%, transparent 40.29%, transparent 42.65%, red 42.65%, red 48.82%, transparent 48.82%, transparent 51.18%, red 51.18%, red 57.35%, transparent 57.35%, transparent 59.71%, red 59.71%, red 65.88%, transparent 65.88%, transparent 68.24%, red 68.24%, red 74.41%, transparent 74.41%, transparent 76.77%, red 76.77%, red 82.94%, transparent 82.94%, transparent 85.3%, red 85.3%, red 91.47%, transparent 91.47%, transparent 93.83%, red 93.83%, red 100.0%, transparent 100.0%);
+  background-image: linear-gradient(to left, transparent 0, red 0, red 6.17%, transparent 6.17%, transparent 8.53%, red 8.53%, red 14.7%, transparent 14.7%, transparent 17.06%, red 17.06%, red 23.23%, transparent 23.23%, transparent 25.59%, red 25.59%, red 31.76%, transparent 31.76%, transparent 34.12%, red 34.12%, red 40.29%, transparent 40.29%, transparent 42.65%, red 42.65%, red 48.82%, transparent 48.82%, transparent 51.18%, red 51.18%, red 57.35%, transparent 57.35%, transparent 59.71%, red 59.71%, red 65.88%, transparent 65.88%, transparent 68.24%, red 68.24%, red 74.41%, transparent 74.41%, transparent 76.77%, red 76.77%, red 82.94%, transparent 82.94%, transparent 85.3%, red 85.3%, red 91.47%, transparent 91.47%, transparent 93.83%, red 93.83%, red 100.0%, transparent 100.0%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 102.4em;
+  opacity: 0.5;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+}
+@media screen and (max-width: 768px) {
+  body:before {
+    background-image: -webkit-linear-gradient(left, transparent 0, red 0, red 9.37%, transparent 9.37%, transparent 12.95%, red 12.95%, red 22.32%, transparent 22.32%, transparent 25.89%, red 25.89%, red 35.26%, transparent 35.26%, transparent 38.84%, red 38.84%, red 48.21%, transparent 48.21%, transparent 51.79%, red 51.79%, red 61.16%, transparent 61.16%, transparent 64.74%, red 64.74%, red 74.11%, transparent 74.11%, transparent 77.68%, red 77.68%, red 87.05%, transparent 87.05%, transparent 90.63%, red 90.63%, red 100.0%, transparent 100.0%);
+    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(0, red), color-stop(9.37%, red), color-stop(9.37%, transparent), color-stop(12.95%, transparent), color-stop(12.95%, red), color-stop(22.32%, red), color-stop(22.32%, transparent), color-stop(25.89%, transparent), color-stop(25.89%, red), color-stop(35.26%, red), color-stop(35.26%, transparent), color-stop(38.84%, transparent), color-stop(38.84%, red), color-stop(48.21%, red), color-stop(48.21%, transparent), color-stop(51.79%, transparent), color-stop(51.79%, red), color-stop(61.16%, red), color-stop(61.16%, transparent), color-stop(64.74%, transparent), color-stop(64.74%, red), color-stop(74.11%, red), color-stop(74.11%, transparent), color-stop(77.68%, transparent), color-stop(77.68%, red), color-stop(87.05%, red), color-stop(87.05%, transparent), color-stop(90.63%, transparent), color-stop(90.63%, red), color-stop(100.0%, red), to(transparent));
+    background-image: -webkit-linear-gradient(right, transparent 0, red 0, red 9.37%, transparent 9.37%, transparent 12.95%, red 12.95%, red 22.32%, transparent 22.32%, transparent 25.89%, red 25.89%, red 35.26%, transparent 35.26%, transparent 38.84%, red 38.84%, red 48.21%, transparent 48.21%, transparent 51.79%, red 51.79%, red 61.16%, transparent 61.16%, transparent 64.74%, red 64.74%, red 74.11%, transparent 74.11%, transparent 77.68%, red 77.68%, red 87.05%, transparent 87.05%, transparent 90.63%, red 90.63%, red 100.0%, transparent 100.0%);
+    background-image: linear-gradient(to left, transparent 0, red 0, red 9.37%, transparent 9.37%, transparent 12.95%, red 12.95%, red 22.32%, transparent 22.32%, transparent 25.89%, red 25.89%, red 35.26%, transparent 35.26%, transparent 38.84%, red 38.84%, red 48.21%, transparent 48.21%, transparent 51.79%, red 51.79%, red 61.16%, transparent 61.16%, transparent 64.74%, red 64.74%, red 74.11%, transparent 74.11%, transparent 77.68%, red 77.68%, red 87.05%, transparent 87.05%, transparent 90.63%, red 90.63%, red 100.0%, transparent 100.0%);
+  }
+}
+@media screen and (max-width: 480px) {
+  body:before {
+    background-image: -webkit-linear-gradient(left, transparent 0, red 0, red 26.57%, transparent 26.57%, transparent 36.72%, red 36.72%, red 63.28%, transparent 63.28%, transparent 73.43%, red 73.43%, red 100%, transparent 100%);
+    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(0, red), color-stop(26.57%, red), color-stop(26.57%, transparent), color-stop(36.72%, transparent), color-stop(36.72%, red), color-stop(63.28%, red), color-stop(63.28%, transparent), color-stop(73.43%, transparent), color-stop(73.43%, red), color-stop(100%, red), to(transparent));
+    background-image: -webkit-linear-gradient(right, transparent 0, red 0, red 26.57%, transparent 26.57%, transparent 36.72%, red 36.72%, red 63.28%, transparent 63.28%, transparent 73.43%, red 73.43%, red 100%, transparent 100%);
+    background-image: linear-gradient(to left, transparent 0, red 0, red 26.57%, transparent 26.57%, transparent 36.72%, red 36.72%, red 63.28%, transparent 63.28%, transparent 73.43%, red 73.43%, red 100%, transparent 100%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+{
+"version": 3,
+"mappings": "AAGE,IAAK;EACH,UAAU,EAAE,UAAU;;;AAItB,sBAEU;EACR,UAAU,EAAE,OAAO;;;AARvB,IAAK;EACH,UAAU,EAAE,UAAU;;;AAItB,sBAEU;EACR,UAAU,EAAE,OAAO;;;ACAvB,WAAY;EARZ,gBAAgB,EAAE,2wBAAsC;EACxD,gBAAgB,EAAE,wwBAAmC;EACrD,gBAAgB,EAAE,uwBAAkC;EACpD,gBAAgB,EAAE,swBAAiC;EACnD,gBAAgB,EAAE,swBAA+C;EAM/D,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,IAAI;EACZ,IAAI,EAAE,CAAC;EACP,MAAM,EAAE,MAAM;EACd,SAAS,ECVD,OAAY;EDWpB,OAAO,ECdW,GAAG;EDerB,cAAc,EAAE,IAAI;EACpB,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,CAAC;EACR,KAAK,EAAE,IAAI;EAOT,OAAO,EAAE,IAAI;;AEwDf,oCAAuB;EF3EzB,WAAY;IARZ,gBAAgB,EAAE,ihBAAsC;IACxD,gBAAgB,EAAE,8gBAAmC;IACrD,gBAAgB,EAAE,6gBAAkC;IACpD,gBAAgB,EAAE,4gBAAiC;IACnD,gBAAgB,EAAE,4gBAA+C;;;AE+E/D,oCAAuB;EF3EzB,WAAY;IARZ,gBAAgB,EAAE,+MAAsC;IACxD,gBAAgB,EAAE,4MAAmC;IACrD,gBAAgB,EAAE,2MAAkC;IACpD,gBAAgB,EAAE,0MAAiC;IACnD,gBAAgB,EAAE,0MAA+C",
+"sources": ["../../../../../../wamp/www/Templates/bourbon%20+%20gulp/bower_components/neat/app/assets/stylesheets/grid/_box-sizing.scss","../../../../../../wamp/www/Templates/bourbon%20+%20gulp/bower_components/neat/app/assets/stylesheets/grid/_visual-grid.scss","../../../../../../wamp/www/Templates/bourbon%20+%20gulp/app/assets/sass/libs/_neat.scss","../../../../../../wamp/www/Templates/bourbon%20+%20gulp/bower_components/neat/app/assets/stylesheets/grid/_media.scss"],
+"names": [],
+"file": "style.css"
+}
